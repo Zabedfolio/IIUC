@@ -7,3 +7,19 @@ For example, while creating the object if we pass "cpp", then "I love cpp" shoul
 printed.
 */
 
+#include<iostream>
+using namespace std;
+
+class Programming{
+    public:
+    Programming(string lang="programming languages"){
+        cout<<"I love"<<lang<<endl;
+    }
+};
+
+int main(){
+    Programming p1;
+    Programming p2("cpp");
+    Programming p3("Python");
+    return 0;
+}
